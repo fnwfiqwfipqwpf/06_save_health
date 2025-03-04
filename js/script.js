@@ -58,3 +58,6 @@ document.getElementById('p_wishes').innerText = '';
 
 console.log('btnbuyhearts clicked!');
 });
+document.getElementById('changeBackgroundBtn').addEventListener('click', function() {
+  document.body.style.backgroundImage = "url('../img/background2.jfif')";
+});

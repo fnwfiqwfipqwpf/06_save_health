@@ -4,12 +4,10 @@ body {
   font-size: 14px;
   line-height: 18px;
   color: #000000;
-  background: #ffffff url("../img/background2.jfif") no-repeat;
-  
+  background: #ffffff url("../img/background3.jfif") no-repeat;
   background-size: cover;
-  
-
 }
+
 
 h1 {
   width: 260px;
@@ -67,12 +65,14 @@ h2 {
   text-align: center;
   background-repeat: no-repeat;
   background-position: center top;
+  
+  
 }
 
 .feature-kitten {
   padding-top: 60px;
   width: 50px;
-  background-image: url("../img/trump.png");
+  background-image: url("../img/trump.png");  
 }
 
 .feature-cat {
@@ -81,8 +81,10 @@ h2 {
 }
 
 .feature-train {
+  text-decoration-color: #0000;
   padding-top: 60px;
   background-image: url("../img/zelensky.png");
+  
 }
 
 .skills-list {
@@ -136,5 +138,11 @@ h2 {
   font-size: 36px;
   line-height: 40px;
   color: #342825;
-  text-align: justify;
+  text-align: justify; 
+  
+}
+#changeBackgroundBtn {
+  color: #342825;
+  background: #7b7878;
+  cursor: not-allowed;
 }
