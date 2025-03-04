@@ -60,7 +60,7 @@ console.log('btnbuyhearts clicked!');
 });
 document.getElementById('changeBackgroundBtn').addEventListener('click', function() {
 
-  document.body.style.backgroundImage = "url('../img/background2.png')";
+  document.body.style.backgroundImage = "url('/img/background2.png')";
   console.log("Changing background to:", document.body.style.backgroundImage);
 });
 
