@@ -91,6 +91,24 @@ h2 {
   padding: 0;
   list-style: none;
 }
+/*  Gallery  */
+
+
+.gallery {
+  display: flex;
+  flex-wrap: row;
+width: 10%;
+align-items: center;
+gap: 10px;
+}
+
+.maim-image {
+  width: 10px;
+}
+.arrow-image {
+  width: 10px;
+  height: 10px;
+}
 
 
 .wishes {
