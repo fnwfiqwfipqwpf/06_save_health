@@ -63,5 +63,26 @@ document.getElementById('changeBackgroundBtn').addEventListener('click', functio
   document.body.style.backgroundImage = "url('img/background2.png')";
   console.log("Changing background to:", document.body.style.backgroundImage);
 });
+const images = [
+  "img/doctor.jpg",
+  "img/bobers.jpg",
+  "img/pillllls.jpg"
+];
+let currentIndex = 0;
+
+function showImage(index) {
+  const imgElement = document.getElementById('galleryImage');
+  imgElement.src = images[index];
+}
+
+document.getElementById('leftArrow').addEventListener('click', () => {
+  currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+  showImage(currentIndex);
+});
+
+document.getElementById('rightArrow').addEventListener('click', () => {
+  currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+  showImage(currentIndex);
+});
 
 
