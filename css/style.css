@@ -94,12 +94,23 @@ h2 {
 /*  Gallery  */
 
 
+
 .gallery {
   display: flex;
   flex-wrap: row;
 width: 10%;
 align-items: center;
 gap: 10px;
+}
+.gallery-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+#leftArrow, #rightArrow {
+  padding-bottom: 100px;
 }
 
 .maim-image {

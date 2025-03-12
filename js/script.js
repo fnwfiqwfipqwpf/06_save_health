@@ -42,10 +42,11 @@ document.getElementById('heartsforwishes').innerText = '💊' .repeat(countOfHea
 document.getElementById('Wishes_btn').addEventListener('click', ()=> { 
 countOfHearts--;
 console.log('countOfHearts: ' + countOfHearts);
-document.getElementById('heartsforwishes').innerText = '💊' .repeat(countOfHearts) + '✘' .repeat(5-countOfHearts);
+document.getElementById('heartsforwishes').innerText = '💊' .repeat(countOfHearts) + '❌' .repeat(5-countOfHearts);
 
 if (countOfHearts == 0) {
-  document.getElementById('Wishes_btn').style.display = 'none';
+  document.getElementById('Wishes_btn').disabled = true;
+  document.getElementById('Wishes_btn').style.display = 'true';
 }
 });
 
@@ -69,6 +70,8 @@ const images = [
   "img/pillllls.jpg"
 ];
 let currentIndex = 0;
+
+showImage(0)
 
 function showImage(index) {
   const imgElement = document.getElementById('galleryImage');
