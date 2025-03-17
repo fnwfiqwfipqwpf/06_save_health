@@ -64,28 +64,31 @@ document.getElementById('changeBackgroundBtn').addEventListener('click', functio
   document.body.style.backgroundImage = "url('img/background2.png')";
   console.log("Changing background to:", document.body.style.backgroundImage);
 });
-const images = [
-  "img/doctor.jpg",
-  "img/bobers.jpg",
-  "img/pillllls.jpg"
-];
-let currentIndex = 0;
+const arrayOfGalleryImages = [
+  "bobers.jpg",
+  "doctor.jpg"
+]
+;
+let galleryImage = 0
 
-showImage(0)
+document.getElementById("main-image").setAttribute('src',`img/gallery/${arrayOfGalleryImages[galleryImage]}`)
 
-function showImage(index) {
-  const imgElement = document.getElementById('galleryImage');
-  imgElement.src = images[index];
-}
+document.getElementById('right-arrow').addEventListener('click',()=>{
+   galleryImage++
+   console.log(galleryImage)
 
-document.getElementById('leftArrow').addEventListener('click', () => {
-  currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
-  showImage(currentIndex);
-});
+   if(galleryImage == arrayOfGalleryImages.length) galleryImage = 0
 
-document.getElementById('rightArrow').addEventListener('click', () => {
-  currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
-  showImage(currentIndex);
-});
+   document.getElementById("main-image").setAttribute('src',`img/gallery/${arrayOfGalleryImages[galleryImage]}`)
+})
+
+document.getElementById('left-arrow').addEventListener('click',()=>{
+   galleryImage--
+   console.log(galleryImage)
+
+   if(galleryImage == -1) galleryImage = arrayOfGalleryImages.length - 1
+
+   document.getElementById("main-image").setAttribute('src',`img/gallery/${arrayOfGalleryImages[galleryImage]}`)
+})
 
 
