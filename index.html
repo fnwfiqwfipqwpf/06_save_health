@@ -3,43 +3,30 @@
   <head>
     <meta charset="utf-8" />
     <title>Супруненко Save Health</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" type="image/x-icon" href="img/healthcarelogo.ico" />
-    <style>
-      .text-box {
-        background-color: rgba(255, 255, 255, 0.8); 
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        margin-bottom: 10px;
-      }
-      
-      
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/medicine(4).png">
   </head>
   <body>
     <div class="container">
       <header class="site-header">
-        <img
-          src="img/home2.png"
+        <img class="doctor"
+          src="images/home2.png"
           width="250"
           height="240"
-          
+          alt="Muffin photo"
         />
       </header>
 
-      <div class="blur-overlay"></div>
-
       <section class="features">
-        <h2>Поради щоб не захворіти</h2>
+        <h2>Поради щоб залишатися здоровим</h2>
         <p class="feature-kitten">
-          Дотримуйтесь гігієни – регулярно мийте руки з милом щонайменше 20 секунд або використовуйте антисептик на основі спирту (не менше 60%). Уникайте доторків до обличчя, особливо очей, носа та рота.
+          Мий руки з милом після вулиці та перед їжею 🧼
         </p>
         <p class="feature-train">
-          Дотримуйтеся дистанції – уникайте людних місць, тримайте дистанцію не менше 1,5–2 метрів від інших людей. Якщо можливо, залишайтеся вдома та мінімізуйте контакти.
+          Уникай контакту з хворими людьми 🤧🚫
         </p>
         <p class="feature-cat">
-          Носіть захисну маску – у громадських місцях носіть маску, щоб зменшити ризик поширення вірусу. Міняйте її регулярно та не торкайтеся зовнішньої частини.
+          Одягайся по погоді, щоб не переохолодитись 🧥❄️ 
         </p>
       </section>
 
@@ -47,49 +34,48 @@
         <h2>Чим харчуватися щоб укріпити імунітет?</h2>
         <ul class="skills-list">
           <li class="skills-item">
-            Цитрусові (апельсини, лимони, грейпфрути) – багаті на вітамін C, який підвищує захисні функції організму;
+            Їж більше цитрусових – апельсини, лимони, мандарини містять багато вітаміну C 🍊🍋
           </li>
           <li class="skills-item standard">
-            Часник – має противірусні та антибактеріальні властивості, допомагає боротися з інфекціями;
+            Додавай до раціону часник і цибулю – вони мають природні антибактеріальні властивості 🧄🧅
           </li>
           <li class="skills-item standard">
-            Імбир – містить антиоксиданти та зменшує запальні процеси в організмі;
+            Не забувай про йогурти та кефір – вони містять пробіотики для здоров’я кишківника 🥛
           </li>
           <li class="skills-item vip">
-            Йогурт і кефір – містять пробіотики, які підтримують здорову мікрофлору кишечника, що важливо для імунітету;
+            Горіхи та насіння – джерело вітаміну E, який підтримує імунну систему 🌰🥜
           </li>
           <li class="skills-item vip">
-            Горіхи та насіння (мигдаль, волоські горіхи, гарбузове насіння) – містять вітаміни Е, цинк та корисні жири, які сприяють зміцненню імунної системи;
+            Зелень та шпинат – багаті на вітаміни A, C, та антиоксиданти 🌿🥬
           </li>
         </ul>
       </section>
-      <section class="gallery">
-        <img src="img/leftarrow.png" alt="Стрілка вліво" id="left-arrow" class="gallery-arrows">
-        <img src="" alt="Головне зображення" id="main-image">>
-        <img src="img/rightarrow.png" alt="Стрілка справо" id="right-arrow" class="gallery-arrows">
-      </section>
-  
+
+    <section>
+      <h2 class="text">Галерея</h2>
+      <div class="gallery">
+          <img src="images/back.png" alt="photo1" id="photo1" class="btn">
+          <img src="images/gallery/bobers.jpg" alt="photo2" id="photo2" class="photo">
+          <img src="images/next.png" alt="photo3" id="photo3" class="btn">
+      </div>
+    </section>
+
+    <section class="vitamins">
+      <h2>Вітаміни</h2>
+      <div id="p_vitamins"></div>
+    </section>
 
       <section>
-        <h3>Побажання</h3>
-        <button id="Wishes_btn">Отримати побажання</button>
-        <p id="p_Wishes">Тут будуть генеруватися побажання</p>
-      </section>
-      
-      <section class="vitamins">
-        <h2>Вітаміни</h2>    
-        <p id = "p-vitamins"></p>        
+        <h2 class="porada">Поради</h2>
+        <button id="Wishes_btn">Отримати пораду</button>
+        <p id="p_Wishes">Тут будуть генеруватися поради</p>
       </section>
 
       <footer class="site-footer">
         <p id="btnbuyhearts">Купити 💊</p>
         <p id="heartsforwishes">💊💊💊💊💊</p>
       </footer>
-      <button id="changeBackgroundBtn" class="text-box">Видалити рекламу</button>
     </div>
   </body>
-  <script src="js/script.js"></script>
-   
-  </body>
-  <script src="js/script.js"></script>
+  <script src="script.js"></script>
 </html>

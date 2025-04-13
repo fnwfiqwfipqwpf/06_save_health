@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "title": "Вітамін A",
+      "description": "Допомогає зберегти зір, сприяє здоров'ю шкіри",
+      "image": "images/vitamin-a.jpg",
+      "formula": "images/images.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Вітамін B1",
+      "description": "Сприяє нормальній роботі нервової системи",
+      "image": "images/045bb272459a047073bd8ef04f8055f4.webp",
+      "formula": "images/Thiamin.svg.png"
+    },
+    {
+      "id": 3,
+      "title": "Вітамін B6",
+      "description": "Сприяє хорошому метаболізму",
+      "image": "images/vitamin_v6_1_13115457-400x231-1.jpg",
+      "formula": "images/formulas/b6_formula.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Вітамін C",
+      "description": "Підтримує імунну систему",
+      "image": "images/c.jpg",
+      "formula": "images/formulas/c_formula.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Вітамін D",
+      "description": "Підтримує здоров'я кісток",
+      "image": "images/76b0aed7fed8925bfa62d61796a0da47.jpeg",
+      "formula": "images/formulas/d_formula.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Вітамін E",
+      "description": "Сприяє захисту клітин від окислювального стресу",
+      "image": "images/23688-foto-1.jpg",
+      "formula": "images/formulas/e_formula.jpg"
+    }
+  ]
+  

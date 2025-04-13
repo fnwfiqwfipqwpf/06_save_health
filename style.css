@@ -1,0 +1,243 @@
+body {
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  background: #ffffff url("images/background2.png") no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  width: 260px;
+  font-family: "Georgia", serif;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+h2 {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.site-header {
+  margin-bottom: 30px;
+}
+
+.skills-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 10px solid #c4c4c4;
+  color: #000000;
+}
+
+.standard {
+  border-color: #ffc5b3;
+  color: #000000;
+}
+
+/* Add a rule for the vip class here */
+.vip {
+  border-color: #ff5a26;
+  color: #000000;
+}
+
+.container {
+  width: 480px;
+  margin: 0 auto;
+}
+
+.container .doctor {
+}
+
+.site-header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.features {
+  margin-bottom: 30px;
+}
+
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.feature-kitten {
+  padding-top: 60px;
+  width: 50px;
+  background-image: url("images/zelensky.png");
+}
+
+.feature-cat {
+  padding-top: 60px;
+  background-image: url("images/trump.png");
+}
+
+.feature-train {
+  padding-top: 60px;
+  background-image: url("images/biden.png");
+}
+
+.skills-list {
+  padding: 0;
+  list-style: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: row;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+}
+
+.text{
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.photo {
+  width: 300px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/*Підвал сайту з кнопкою купівлі 🧡*/
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.site-footer p {
+  background-color: #ffb6c1;
+  padding: 10px 20px;
+  border-radius: 0 10px;
+  border: 1px solid #b20e40;
+  color: #fff;
+  cursor: pointer;
+}
+
+.site-footer p:last-child {
+  cursor: help;
+}
+/*Секція випадкових побажань*/
+
+.wishes {
+  margin-top: 100px;
+}
+
+.porada{
+    text-align: center;
+    font-size: 36px;
+    color: black;
+}
+
+#p_Wishes{
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  background-color: #ffc5b3;
+  height: 50px;
+}
+
+#Wishes_btn {
+  background: #ff5a26;
+  color: #ffc5b3;
+  border: 5px solid #ffc5b3;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 43px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+}
+
+#p-love-wishes {
+  height: 150px;
+  font-size: 36px;
+  line-height: 40px;
+  color: #ff5a26;
+  text-align: center; 
+}
+
+.vitamins h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#p_vitamins {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto; 
+}
+
+.vitamin {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 12px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fefefe;
+}
+
+.vitamin:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #f9fff9;
+}
+
+.vitamin img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.buy-btn {
+  display: block;
+  margin: 10px auto 0;
+  padding: 8px 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #45a049;
+}
